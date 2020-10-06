@@ -2,7 +2,14 @@
 
 Is a C# API Rest to Navigate a Rover
 
+## Installation
+Use the following commands in a terminal from the project root to 
+Build and Run the Docker Image.
 
+```bash
+$ docker build -t rovernavigationcore .
+$ docker run -d -p 8080:80 --name myapp rovernavigationcore
+```
 
 ## Usage
 
